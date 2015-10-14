@@ -130,3 +130,33 @@ footer .title{
 	font-size: 14px !important;
 	font-weight: bold;
 }
+h1.tituloSecundarias{
+	background: none;
+	font-size: 40px;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+}
+#fondoTitulo{
+	background: url("../img/titulo.jpg") no-repeat right center;
+	height: 77px;
+	padding-top: -20px;
+	padding-left: 15px;
+
+}
+
+.intro{
+font-weight: bold;
+font-size: 15px;
+line-height: 25px;
+padding-top: 10px;
+}
+
+blockquote h3{
+	color: gray;
+	font-style: italic;
+}
+blockquote .title{
+	float: right;
+	color: #1B336C;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="myapp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lorval Constructores y Consultores S.A. de C.V.</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css" />
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.1/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/mainstyle.css#1" />
+  </head>
+  <body ng-controller="MyController" >
+    <div class="container">
+      <div ng-include="'includes/header.html'"></div>
+      <section class="row" id="fondoTitulo" style=" clear:both; " >
+          <div class="col-xs-12">
+            <h1 class="tituloSecundarias">Contáctanos</h1> 
+          </div>
+
+          <article class="col-xs-12">
+              <p class="intro"><br><br class="visible-xs">
+                Nos sentiremos honrados de responder y dar pronta solución a cualquier inquietud que pueda tener. 
+              </p>
+          </article>
+      </section>
+
+      <section class="contenido row">
+        <article  class='col-xs-4'><img src="img/contactanoslorval.jpg" align="right"></article>
+        <article class="col-xs-8">
+            <script type="text/javascript">var servicedomain="www.123contactform.com"; var frmRef=''; try { frmRef=window.top.location.href; } catch(err) {}; var cfJsHost = (("https:" == document.location.protocol) ? "https://" : "http://"); document.write(unescape("%3Cscript src='" + cfJsHost + servicedomain + "/includes/easyXDM.min.js' type='text/javascript'%3E%3C/script%3E")); frmRef=encodeURIComponent(frmRef).replace('%26','[%ANDCHAR%]'); document.write(unescape("%3Cscript src='" + cfJsHost + servicedomain + "/jsform-1363569.js?ref="+frmRef+"' type='text/javascript'%3E%3C/script%3E")); </script>
+            </article>
+        </section>
+      <div ng-include="'includes/footer.html'"></div>
+    </div> <!-- /container -->
+      <script> angular.module("myapp", []).controller("MyController", function($scope) { });</script>
+
+  </body>
+</html>

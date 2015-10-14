@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="myapp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acerca de Nosotros :: Lorval Constructores y Consultores S.A. de C.V.</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.1/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="css/mainstyle.css#1" />
+  </head>
+  <body>
+    <div ng-controller="MyController" >
+    <div class="container">
+      <div ng-include="'includes/header.html'"></div>
+      <section class="row" id="fondoTitulo" style=" clear:both;">
+          <div class="col-xs-12">
+            <h1 class="tituloSecundarias">Acerca de nosostros</h1> 
+          </div>
+
+          <article class="row">
+            <div class="col-sm-12 col-md-8">
+              <div class="visible-xs" style=" clear:both; "></div>
+              <p class="intro"><br><br class="visible-xs">
+                Somos un grupo de profesionistas con una larga experiencia y capacidad técnica en cada una de las áreas de la industria de la construcción, desde profesionales para la proyección, diseño, administración, elaboración de presupuestos, supervisión auditorias y control presupuestal, hasta profesionales con amplia experiencia en la ejecución de toda clase de obras de ingeniería y arquitectura, tanto en obras públicas como privadas.
+              </p>
+            </div>
+            <div class="col-md-4 hidden-xs hidden-sm">
+              <img id="imgCasco"  src="img/planosycasco.png"><br>
+            </div>
+
+            <blockquote><h3>Ser una empresa que provee soluciones que garantizan resultados de alto impacto, tangibles y perdurables a sus clientes. <br><small class="title">Nuestro objetivo</small></h3> </blockquote>
+          </article>
+         
+
+      </section>
+      <section class="contenido row">
+        <article class="col-xs-12 col-sm-6">
+            <h1><span> VISION </span></h1>
+            <p>Somos una empresa empeñada en lograr los más altos estándares de calidad y confianza en:</p>
+            <ul class="list-unstyled" id="  ">
+              <li> <span class="glyphicon glyphicon-ok"></span>
+                Ser la opción preferente de nuestros clientes en nuestro mercado objetivo.
+
+              </li>
+              <li><span class="glyphicon glyphicon-ok"></span>
+                Proporcionar al sector público y privado la gama de servicios que demandan los programas de inversión, facilitando su control y proponiendo soluciones.
+
+              </li>
+              <li><span class="glyphicon glyphicon-ok"></span>
+                Ofrecer al sector privado la asesoría y realización de sus proyectos, desde su conceptualización hasta su comercialización y ocupación final.
+              </li>
+            </ul>
+        </article>
+        <article class="col-xs-12 col-sm-6">
+            <h1><span> POLÍTICA </span></h1>
+            <p>Nos hemos propuesto crear un equipo de trabajo capaz de atender cualquier tipo de proyecto de ingeniería, arquitectónico y de diseño. Para ello hemos logrando conjuntar a reconocidos expertos, profesionales avalados por su experiencia comprobada, construida en base a la confianza (integridad, intención, capacidad, resultados), que nos permiten sabernos capacitados para enfrentar cualquier reto, alcanzando día a día nuevos niveles de desarrollo.</p>
+            
+            
+            
+        </article>
+      </section>
+      <div ng-include="'includes/footer.html'"></div>
+    </div> <!-- /container -->
+      </div>
+      
+      <script>
+    angular.module("myapp", [])
+    .controller("MyController", function($scope) {
+        //$scope.myData = {};
+        //$scope.myData.showIt = true;
+    });
+</script>
+
+  </body>
+</html>
